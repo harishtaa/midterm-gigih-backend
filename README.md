@@ -30,8 +30,8 @@ Before you proceed, ensure you have the following installed on your machine:
     
 ### Getting Started
 
-1. **Clone this repository** into your local machine `https://github.com/harishtaa/midterm-gigih-backend.git`
-2. **Navigate to the Project Directory**`midterm-gigih-backend` 
+1. **Clone this repository** into your local machine `git clone https://github.com/harishtaa/midterm-gigih-backend.git`
+2. **Open terminal and navigate to the Project Directory**`cd midterm-gigih-backend` 
 3. **Install dependencies** `npm install`
 4. **Configure MongoDB Connection** 
 Open the project in your text editor and open the `.env`and `index.js`, ensure that the MongoDB connection string is correctly set according to your MongoDB setup. For example:
