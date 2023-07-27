@@ -3,19 +3,18 @@
 
 ### Videos
 
-- `POST /videos`: Create a new video.
-- `GET /videos`: Get a list of all videos.
-- `GET /videos/:id`: Get a specific video by its ID.
+- `POST /videos`: Add a new video to the database.
+- `GET /videos`: Retrieve a list of all videos available on the platform.
+- `GET /videos/:id`: Fetch details of a specific video using its ID.
 
 ### Products
 
-- `POST /products`: Create a new product.
-- `GET /products/:id`: Get a specific product by its ID.
-
+- `POST /products`: Add a new product to the database.
+- `GET /products/:id`: Fetch details of a specific product using its ID.
 ### Comments
 
-- `POST /comments`: Create a new comment on a video.
-- `GET /comments/:videoId`: Get all comments associated with a specific video by its ID.
+- `POST /comments`: Add a new comment to a specific video.
+- `GET /comments/:videoId`: Fetch all comments for a specific video using its ID
 
 
 ## How to Run
@@ -46,7 +45,7 @@ const  db  =  mongoose.connection;
  ```
 
 ## Running the Server
-6. Start the server: `node index.js`
-7. Open your web browser and go to the following address: `http://localhost:3000`.
+1. Start the server: `node index.js`
+2. Open your web browser and go to the following address: `http://localhost:3000`.
 
 
