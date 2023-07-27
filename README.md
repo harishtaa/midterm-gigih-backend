@@ -46,6 +46,6 @@ const  db  =  mongoose.connection;
 
 ## Running the Server
 1. Start the server: `node index.js`
-2. Use Postman/CURL to test endpoint API
+2. Test API endpoint in Postman/CURL using `http://localhost:3000`.
 
 
