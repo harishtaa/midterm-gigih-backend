@@ -17,7 +17,7 @@
 - `GET /comments/:videoId`: Fetch all comments for a specific video using its ID
 
 
-## How to Run
+## How to Run :rocket:
 ### Prerequisites
 
 Before you proceed, ensure you have the following installed on your machine:
