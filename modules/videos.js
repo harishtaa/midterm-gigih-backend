@@ -2,9 +2,12 @@ import mongoose from 'mongoose';
 
 const videoSchema = new mongoose.Schema({
     videoId:{
+        type:Number,
+        required:true
+    },
+    judulVideo:{
         type:String,
         required:true
-        
     },
     thumbnailUrl:{
         type:String,

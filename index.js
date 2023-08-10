@@ -5,11 +5,14 @@ import bodyParser from "body-parser";
 import VideosRouter from "./routes/videos.routes.js"
 import ProductsRouter from "./routes/products.routes.js"
 import CommentsRouter from "./routes/comments.routes.js"
-
+import cors from "cors"
 
 dotenv.config();
 
+
+
 const app = express();
+app.use(cors({ origin: 'http://localhost:3000' }));
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({
     extended:true
@@ -19,8 +22,8 @@ app.use('/videos', VideosRouter)
 app.use('/products', ProductsRouter)
 app.use('/comments', CommentsRouter)
 
-app.listen(process.env.PORT, () => {
-    console.log(`Server started at ${3000}`)
+app.listen(5000, () => {
+    console.log(`Server started at ${5000}`)
 })
 
 mongoose.connect(process.env.DATABASE_URL)
